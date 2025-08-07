@@ -1,11 +1,14 @@
 {
-  "name": "redis-ws-discovery",
+  "name": "@borodin/node-redis-ws-discovery",
   "version": "",
   "description": "Redis service discovery for WebSocket servers and sockets",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arusakov/redis-ws-discovery.git"
+    "url": "git+https://github.com/arusakov/node-redis-ws-discovery.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/arusakov/redis-ws-discovery/issues"
